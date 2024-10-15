@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB to Hex Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>RGB to Hex Color Converter</h1>
+        <div class="input-group">
+            <label for="r">Red (0-255):</label>
+            <input type="number" id="r" min="0" max="255" placeholder="0">
+        </div>
+        <div class="input-group">
+            <label for="g">Green (0-255):</label>
+            <input type="number" id="g" min="0" max="255" placeholder="0">
+        </div>
+        <div class="input-group">
+            <label for="b">Blue (0-255):</label>
+            <input type="number" id="b" min="0" max="255" placeholder="0">
+        </div>
+        <button id="convert-btn">Convert to Hex</button>
+        <div class="result">
+            <p>Hex Color Code: <span id="hex-result">#000000</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
